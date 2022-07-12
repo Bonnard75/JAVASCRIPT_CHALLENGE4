@@ -3,8 +3,8 @@
 const dauphins = { score1: 97, score2: 112, score3: 101 };
 const koalas = { score1: 109, score2: 95, score3: 123 };
 
-function calculeMoyenne(a, b, c) {
-  return (a + b + c) / 3;
+function calculeMoyenne(score1, score2, score3) {
+  return (score1 + score2 + score3) / 3;
 }
 
 
